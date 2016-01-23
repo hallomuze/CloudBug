@@ -179,7 +179,7 @@ The line `publicDB.saveRecord(record)` saves the newly created record into the p
 
 CloudKit 를 이용하여 어떻게 Data 가 공유 되는지 보여주기 위해서 이 블로그포스트에 iOS app 소스 역시 포함되어 있다.
 
-![Compatible iOS App Screenshot](images/iOSApp1.png)
+![Compatible iOS App Screenshot](images/iosApp1.png)
 
 셋업을 위해 Xcode 에서 간단히 master detail application 를 만들었다.
 
@@ -191,7 +191,7 @@ Configuration panel 은 이제 아래처럼 보일 것이다.
 
 You're now ready to start using CloudKit in the iOS app. I won't go into the details of how it was implemented, as there's already a [comprehensive explanation of how to use CloudKit on iOS in iOS8-day-by-day](https://www.shinobicontrols.com/blog/ios8-day-by-day-day-33-cloudkit), but this is what the app should look like when you select a note. The title should be the view controller title, and the content should be displayed in the middle of the screen.
 
-![Compatible iOS App Screenshot](images/iOSApp2.png)
+![Compatible iOS App Screenshot](images/iosApp2.png)
 
 ## Conclusion
 

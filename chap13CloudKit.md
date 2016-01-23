@@ -79,7 +79,7 @@ You'll have to go back into CloudKit Dashboard to generate an API token. You can
 
 ![API Token Setup](images/apiTokenSetup.png)
 
-The code in my version of `cloudNotes.js` uses [Knockout JS](http://knockoutjs.com/) to create and bind the model to the HTML. I have created a `CloudNotesViewModel` which is responsible for managing the page. It contains an array of all of the notes, as well as functions to save a new note, fetch notes from the server, display an authenticated state and display an unauthenticated state.
+The code in my version of `cloudNotes.js` uses [Knockout JS](http://knockoutjs.com/) to create and bind the model to the HTML. I have created a `CloudNotesViewModel` which is responsible for managing the page. It contains an array of all of the notes, as well as functions to save a new note, fetch notes from the server, display an authenticated state and display an unauthenticated state. `cloudNotes.js`버전은 [Knockout JS](http://knockoutjs.com/) 를 사용하는데, 이는 model을 HTML과 합치기(bind) 위함이다.
 
 View Model 이 이러한 function 을 호출하기에 앞서 반드시 CloudKit 인증을 셋업해야 한다.
 

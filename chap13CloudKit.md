@@ -179,7 +179,7 @@ The line `publicDB.saveRecord(record)` saves the newly created record into the p
 
 CloudKit 를 이용하여 어떻게 Data 가 공유 되는지 보여주기 위해서 이 블로그포스트에 iOS app 소스 역시 포함되어 있다.
 
-![Compatible iOS App Screenshot](images/iOSApp1.png)
+![Compatible iOS App Screenshot](images/iosApp1.png)
 
 셋업을 위해 Xcode 에서 간단히 master detail application 를 만들었다.
 

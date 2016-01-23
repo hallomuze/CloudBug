@@ -191,7 +191,7 @@ Configuration panel 은 이제 아래처럼 보일 것이다.
 
 You're now ready to start using CloudKit in the iOS app. I won't go into the details of how it was implemented, as there's already a [comprehensive explanation of how to use CloudKit on iOS in iOS8-day-by-day](https://www.shinobicontrols.com/blog/ios8-day-by-day-day-33-cloudkit), but this is what the app should look like when you select a note. The title should be the view controller title, and the content should be displayed in the middle of the screen.
 
-![Compatible iOS App Screenshot](images/iOSApp2.png)
+![Compatible iOS App Screenshot](images/iosApp2.png)
 
 ## Conclusion
 
